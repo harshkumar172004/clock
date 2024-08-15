@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(252, 164, 239);
+}
+#Clock {
+    position: relative;
+    height: 80vh;
+    width: 80vh;
+    margin: auto;
+    background: url(image/clock.png)no-repeat;
+    background-size: 100%;
+}
+
+.Hour,
+.Min,
+.Sec {
+    position: absolute;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+.Hour {
+    width: 1.8%;
+    height: 25%;
+    top: 25%;
+    left: 48.85%;
+    opacity: 0.9;
+    background-color: green;
+}
+
+.Min {
+    width: 1.6%;
+    height: 30%;
+    top: 19%;
+    left: 48.9%;
+    opacity: 0.9;
+    background-color: green;
+}
+
+.Sec {
+    width: 1%;
+    height: 40%;
+    top: 9%;
+    left: 49.25%;
+    background-color: red;
+
+}
+
+.Center {
+    width: 30px;
+    height: 30px;
+    top: 47.4%;
+    left: 46.99%;
+    background-color: black;
+    position: absolute;
+    border-radius: 50px;
+}
